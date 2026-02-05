@@ -1,0 +1,102 @@
+{
+    "patients": [
+        {
+            "id": "patient-001",
+            "name": "Priya Sharma",
+            "age": 26,
+            "village": "Kheda",
+            "phone": "9876543210",
+            "weekPregnant": 24,
+            "expectedDelivery": "2026-06-15",
+            "riskLevel": "normal",
+            "ashaWorker": "ASHA Devi",
+            "ashaPhone": "9876543211",
+            "lastVisit": "2026-02-01"
+        },
+        {
+            "id": "patient-002",
+            "name": "Meera Patel",
+            "age": 32,
+            "village": "Raipur",
+            "phone": "9876543212",
+            "weekPregnant": 32,
+            "expectedDelivery": "2026-04-20",
+            "riskLevel": "high",
+            "ashaWorker": "ASHA Devi",
+            "ashaPhone": "9876543211",
+            "lastVisit": "2026-02-03"
+        },
+        {
+            "id": "patient-003",
+            "name": "Anjali Verma",
+            "age": 24,
+            "village": "Bhopal",
+            "phone": "9876543213",
+            "weekPregnant": 16,
+            "expectedDelivery": "2026-08-10",
+            "riskLevel": "normal",
+            "ashaWorker": "ASHA Devi",
+            "ashaPhone": "9876543211",
+            "lastVisit": "2026-01-20"
+        }
+    ],
+    "analytics": {
+        "totalPatients": 1247,
+        "highRiskDetected": 89,
+        "livesSaved": 12,
+        "dataCompleteness": 94,
+        "riskDistribution": {
+            "normal": 70,
+            "moderate": 20,
+            "high": 10
+        },
+        "monthlyTrend": [
+            {
+                "month": "Aug",
+                "count": 85
+            },
+            {
+                "month": "Sep",
+                "count": 102
+            },
+            {
+                "month": "Oct",
+                "count": 118
+            },
+            {
+                "month": "Nov",
+                "count": 145
+            },
+            {
+                "month": "Dec",
+                "count": 167
+            },
+            {
+                "month": "Jan",
+                "count": 198
+            }
+        ],
+        "topRiskFactors": [
+            {
+                "name": "Hypertension",
+                "count": 45
+            },
+            {
+                "name": "Anemia",
+                "count": 32
+            },
+            {
+                "name": "Diabetes",
+                "count": 18
+            },
+            {
+                "name": "Pre-eclampsia",
+                "count": 12
+            },
+            {
+                "name": "Malnutrition",
+                "count": 8
+            }
+        ]
+    }
+}

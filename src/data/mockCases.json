@@ -1,0 +1,111 @@
+[
+    {
+        "id": "case-001",
+        "motherName": "Priya Sharma",
+        "age": 26,
+        "village": "Kheda",
+        "phone": "9876543210",
+        "expectedDelivery": "2026-06-15",
+        "weekPregnant": 24,
+        "riskLevel": "normal",
+        "ashaWorker": "ASHA Devi",
+        "ashaPhone": "9876543211",
+        "createdAt": "2025-12-20",
+        "visits": [
+            {
+                "id": "visit-001",
+                "date": "2026-02-01",
+                "type": "doctor",
+                "provider": "Dr. Rajesh Mehta",
+                "location": "City Hospital Indore",
+                "notes": "Normal pregnancy progression. Continue iron supplements."
+            },
+            {
+                "id": "visit-002",
+                "date": "2026-01-28",
+                "type": "asha",
+                "provider": "ASHA Devi",
+                "location": "Kheda Village",
+                "vitals": {
+                    "bloodPressure": {
+                        "systolic": 118,
+                        "diastolic": 76
+                    },
+                    "spO2": 98,
+                    "temperature": 98.2
+                },
+                "riskLevel": "normal"
+            },
+            {
+                "id": "visit-003",
+                "date": "2026-01-15",
+                "type": "vaccination",
+                "provider": "PHC Kheda",
+                "notes": "TT1 Vaccine administered"
+            }
+        ]
+    },
+    {
+        "id": "case-002",
+        "motherName": "Meera Patel",
+        "age": 32,
+        "village": "Raipur",
+        "phone": "9876543212",
+        "expectedDelivery": "2026-04-20",
+        "weekPregnant": 32,
+        "riskLevel": "high",
+        "ashaWorker": "ASHA Devi",
+        "ashaPhone": "9876543211",
+        "createdAt": "2025-08-15",
+        "visits": [
+            {
+                "id": "visit-004",
+                "date": "2026-02-03",
+                "type": "asha",
+                "provider": "ASHA Devi",
+                "location": "Raipur Village",
+                "vitals": {
+                    "bloodPressure": {
+                        "systolic": 145,
+                        "diastolic": 92
+                    },
+                    "spO2": 96,
+                    "temperature": 98.6
+                },
+                "riskLevel": "high",
+                "notes": "Elevated BP detected. Urgent referral needed."
+            }
+        ]
+    },
+    {
+        "id": "case-003",
+        "motherName": "Anjali Verma",
+        "age": 24,
+        "village": "Bhopal",
+        "phone": "9876543213",
+        "expectedDelivery": "2026-08-10",
+        "weekPregnant": 16,
+        "riskLevel": "normal",
+        "ashaWorker": "ASHA Devi",
+        "ashaPhone": "9876543211",
+        "createdAt": "2026-01-05",
+        "visits": [
+            {
+                "id": "visit-005",
+                "date": "2026-01-20",
+                "type": "asha",
+                "provider": "ASHA Devi",
+                "location": "Bhopal Village",
+                "vitals": {
+                    "bloodPressure": {
+                        "systolic": 115,
+                        "diastolic": 72
+                    },
+                    "spO2": 99,
+                    "temperature": 97.8
+                },
+                "riskLevel": "normal"
+            }
+        ]
+    }
+]

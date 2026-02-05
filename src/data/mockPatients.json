@@ -1,0 +1,140 @@
+{
+    "patient": {
+        "id": "patient-001",
+        "name": "Priya Sharma",
+        "age": 26,
+        "village": "Kheda",
+        "phone": "9876543210",
+        "weekPregnant": 24,
+        "expectedDelivery": "2026-06-15",
+        "riskLevel": "normal",
+        "ashaWorker": "ASHA Devi",
+        "ashaPhone": "9876543211"
+    },
+    "timeline": [
+        {
+            "id": "event-001",
+            "date": "2026-02-01",
+            "type": "doctor_visit",
+            "title": "Doctor Visit",
+            "description": "Regular check-up at City Hospital",
+            "provider": "Dr. Rajesh Mehta",
+            "location": "City Hospital Indore",
+            "prescription": "Iron supplements (1 tablet daily), Folic acid (5mg daily)",
+            "vitals": {
+                "bloodPressure": {
+                    "systolic": 118,
+                    "diastolic": 76
+                },
+                "spO2": 98,
+                "temperature": 98.2
+            },
+            "riskLevel": "normal"
+        },
+        {
+            "id": "event-002",
+            "date": "2026-01-28",
+            "type": "asha_visit",
+            "title": "ASHA Home Visit",
+            "description": "Routine vitals monitoring",
+            "provider": "ASHA Devi",
+            "location": "Kheda Village",
+            "vitals": {
+                "bloodPressure": {
+                    "systolic": 118,
+                    "diastolic": 76
+                },
+                "spO2": 98,
+                "temperature": 98.2
+            },
+            "riskLevel": "normal"
+        },
+        {
+            "id": "event-003",
+            "date": "2026-01-15",
+            "type": "vaccination",
+            "title": "TT1 Vaccine",
+            "description": "First Tetanus Toxoid vaccination",
+            "provider": "PHC Kheda",
+            "location": "Primary Health Center Kheda"
+        },
+        {
+            "id": "event-004",
+            "date": "2026-01-10",
+            "type": "vaccination",
+            "title": "TT2 Vaccine",
+            "description": "Second Tetanus Toxoid vaccination",
+            "provider": "PHC Kheda",
+            "location": "Primary Health Center Kheda"
+        },
+        {
+            "id": "event-005",
+            "date": "2025-12-20",
+            "type": "genesis",
+            "title": "Genesis Record Created",
+            "description": "First antenatal registration by ASHA worker",
+            "provider": "ASHA Devi",
+            "location": "Kheda Village"
+        }
+    ],
+    "vaccinations": [
+        {
+            "id": "vac-001",
+            "name": "TT1 (Tetanus Toxoid)",
+            "completed": true,
+            "date": "2026-01-15",
+            "dueDate": "2026-01-15",
+            "location": "PHC Kheda"
+        },
+        {
+            "id": "vac-002",
+            "name": "TT2 (Tetanus Toxoid)",
+            "completed": true,
+            "date": "2026-01-10",
+            "dueDate": "2026-01-10",
+            "location": "PHC Kheda"
+        },
+        {
+            "id": "vac-003",
+            "name": "TT Booster",
+            "completed": true,
+            "date": "2026-02-01",
+            "dueDate": "2026-02-01",
+            "location": "PHC Kheda"
+        },
+        {
+            "id": "vac-004",
+            "name": "Hepatitis B",
+            "completed": false,
+            "dueDate": "2026-03-01",
+            "location": "PHC Kheda"
+        },
+        {
+            "id": "vac-005",
+            "name": "Influenza",
+            "completed": false,
+            "dueDate": "2026-03-15",
+            "location": "PHC Kheda"
+        }
+    ],
+    "upcomingReminders": [
+        {
+            "id": "rem-001",
+            "title": "Hepatitis B Vaccine Due",
+            "date": "2026-03-01",
+            "type": "vaccination"
+        },
+        {
+            "id": "rem-002",
+            "title": "ASHA Home Visit Scheduled",
+            "date": "2026-02-08",
+            "type": "visit"
+        },
+        {
+            "id": "rem-003",
+            "title": "Doctor Check-up",
+            "date": "2026-02-15",
+            "type": "checkup"
+        }
+    ]
+}
