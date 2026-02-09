@@ -169,14 +169,6 @@ Jeevan Kosh integrates **three core components** into a single digital ecosystem
 
 ---
 
-## 👥 Team
-
-**Team Jeevan Kosh**  
-VIT Bhopal University  
-Maternal & Child Health – Software Innovation
-
----
-
 ## ⭐ Vision
 
 > To create India’s first truly continuous, patient-owned digital health journey — from pregnancy to adulthood.
